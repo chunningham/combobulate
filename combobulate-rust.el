@@ -25,8 +25,7 @@
 ;;; Code:
 
 (defun combobulate-setup-rust ()
-  (setq combobulate-navigation-node-types '(module
-                                            struct_item
+  (setq combobulate-navigation-node-types '(struct_item
                                             function_item
                                             enum_item
                                             impl_item
