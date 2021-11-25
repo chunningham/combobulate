@@ -388,7 +388,8 @@ like \\[backward-sexp]."
 (defvar combobulate-setup-functions-alist
   '((python-mode . combobulate-setup-python)
     (typescript-mode . combobulate-setup-js-ts)
-    (html-mode . combobulate-setup-html))
+    (html-mode . combobulate-setup-html)
+    (rustic-mode . combobulate-setup-rust))
   "Alist of setup functions to call when \\[combobulate-mode] is enabled.")
 
 (defvar combobulate-options-key-map (make-sparse-keymap "Combobulate Options"))
@@ -432,6 +433,7 @@ like \\[backward-sexp]."
 
 (require 'combobulate-hierarchy)
 (require 'combobulate-python)
+(require 'combobulate-rust)
 (require 'combobulate-display)
 (require 'combobulate-experiments)
 (require 'combobulate-manipulation)
