@@ -24,7 +24,7 @@
 
 ;;; Code:
 
-(defun combobulate-rust-setup ()
+(defun combobulate-setup-rust ()
   (setq combobulate-navigation-node-types '(module
                                             struct_item
                                             function_item
